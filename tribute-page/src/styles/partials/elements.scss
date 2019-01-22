@@ -6,6 +6,35 @@
   h1 {
     margin: 0 auto;
     font-size: 2rem;
-    max-width: 900px;
+    max-width: $containerMaxWidth;
+  }
+}
+
+.image-container {
+  width: 30%;
+  font-size: 1.2rem;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: .5rem;
+  }
+}
+
+.tribute-info-container {
+  width: 65%;
+  font-size: 1.5rem;
+
+  p {
+    line-height: 1.4;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    color: inherit;
   }
 }

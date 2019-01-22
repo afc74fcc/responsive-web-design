@@ -13,3 +13,11 @@ body {
   margin: 0;
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
+
+.main-container {
+  display: flex;
+  max-width: $containerMaxWidth;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px 0;
+}
