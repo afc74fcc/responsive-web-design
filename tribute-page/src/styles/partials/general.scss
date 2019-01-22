@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // Reset REM https://snook.ca/archives/html_and_css/font-size-with-rem
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
