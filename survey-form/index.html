@@ -7,7 +7,122 @@
 </head>
 <body>
 
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+  <h1 id="title">Survey</h1>
+  <p id="description">
+    Let us know how we can improve freeCodeCamp
+  </p>
+
+  <form id="survey-form">
+
+    <div class="form-group">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" />
+    </div>
+
+    <div class="form-group">
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" />
+    </div>
+
+    <div class="form-group">
+      <label for="age" id="number-label">Age</label><br>
+      <input type="number" id="age" name="age" min="10" max="100" placeholder="Age" />
+    </div>
+
+    <div class="form-group">
+      <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label id="radios-label">How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+      <div>
+        <input type="radio" id="radioDefinitely" name="radios"/>
+        <label for="radioDefinitely">Definitely</label>
+      </div>
+      <div>
+        <input type="radio" id="radioMaybe" name="radios" />
+        <label for="radioMaybe">Maybe</label>
+      </div>
+      <div>
+        <input type="radio" id="radioNotSure" name="radios" />
+        <label for="radioNotSure">Not sure</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label id="checkboxes-label">Things that should be improved in the future <br>(Check all that apply):</label><br>
+      <div>
+        <input type="checkbox" id="checkbox1" name="checkboxes"/>
+        <label for="checkbox1">Front-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox2" name="checkboxes"/>
+        <label for="checkbox2">Back-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox3" name="checkboxes"/>
+        <label for="checkbox3">Data Visualization</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox4" name="checkboxes"/>
+        <label for="checkbox4">Challenges</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox5" name="checkboxes"/>
+        <label for="checkbox5">Open Source Community</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox6" name="checkboxes"/>
+        <label for="checkbox6">Gitter help rooms</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox7" name="checkboxes"/>
+        <label for="checkbox7">Videos</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox8" name="checkboxes"/>
+        <label for="checkbox8">City Meetups</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox9" name="checkboxes"/>
+        <label for="checkbox9">Wiki</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox10" name="checkboxes"/>
+        <label for="checkbox10">Forum</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox11" name="checkboxes"/>
+        <label for="checkbox11">Additional Courses</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="textarea" id="textarea-label">Any comments or suggestions?</label><br>
+      <textarea id="textarea" name="textarea" placeholder="Enter your email">Enter your comment here</textarea>
+    </div>
+
+    <div class="form-group">
+      <button id="submit" type="submit">Send</button>
+    </div>
+
+
+
+
+
+  </form>
+
+
+  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
 
 </body>
 </html>
